@@ -23,6 +23,13 @@
 	# IDLE basics
 		# Open the software
 		# What is the Interpreter and shell?
+# Getting help
+	# Google is your friend!
+	# Don't reinvent the wheel
+	# Python is popular - TONS of resources!
+	# https://www.python.org/
+	# Documentation - just check version!
+		# https://docs.python.org/3/whatsnew/3.0.html
 # Arithmetic using the shell
 	# Addition
 	# Subtraction
@@ -54,7 +61,7 @@ a = 123
 
 b = 122
 
-print(a)
+print(a) # PRINTING in Python 2.x
 print(b)
 
 print(a + b)
@@ -172,3 +179,86 @@ print(c + g + h + d) # Can you guess what this will print?
 '''
 ##############################################################################
 
+##############################################################################
+'''
+
+firstWord = "Hello" # notice camelCase syntax, first_word is another good option
+secondWord = "World"
+
+print(firstWord + secondWord)
+
+print(firstWord + " " + secondWord)
+
+phrase = "A good first program is to write" + " " + firstWord + " " + secondWord
+print(phrase)
+
+phrase = "A good first program is to write " + firstWord + " " + secondWord
+print(phrase)
+
+firstWord = "Hello "
+midWord = " there "
+secondWord = "World"
+phrase = firstWord + midWord + secondWord
+print(phrase) # difficult to manage
+
+print(firstWord, midWord, secondWord)
+
+print("My output is:", firstWord, secondWord) # can you guess the output?
+
+'''
+##############################################################################
+'''
+
+num = 5
+word = "Hello"
+
+print(num + word)
+
+print(num, word)
+
+'''
+##############################################################################
+'''
+
+# notice how print statements create new lines
+
+print("My name is")
+print("Nathan")
+
+# another example
+
+print("My name is")
+name = "Nathan"
+print(name)
+
+# if our print statement is limited to the order of the code, we can modify print endings
+
+print("My name is", end=" ")
+name = "Nathan"
+print(name)
+
+print("The World is", end=" happy ")
+print("today.")
+
+# We can manually insert new lines
+
+print("I want a few new lines")
+print()
+print()
+print()
+print("Thank you")
+
+# Choose how to separate arguments
+
+a = "I"
+b = "Feel"
+c = "Pretty"
+
+print(a, b, c)
+
+print(a, b, c, sep="~~~")
+
+print(a, b, c, sep="~~~", end="!!!!")
+
+'''
+##############################################################################
