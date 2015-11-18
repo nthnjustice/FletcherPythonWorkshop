@@ -2,6 +2,8 @@ myList = [3, 5, 7]
 
 print myList
 
+myList[4] = 10
+
 myList.append(9)
 
 print myList
