@@ -38,5 +38,5 @@ def interface():
             stop = True
 
 
-
-interface()
+if __name__ == "__main__":
+	interface()
