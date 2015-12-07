@@ -153,7 +153,7 @@ def writeTestsMenu():
         writeTestsMenu()
 
 def writeTests():
-    f = open("data/testRestults", "w")
+    f = open("data/testRestults.txt", "w")
 
     f.write("Loaded Data Results: \n")
     f.write("\n")
